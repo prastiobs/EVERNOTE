@@ -1,0 +1,117 @@
+body {
+    background-image: url("../img/login-background.png")
+}
+
+.wrap {
+    margin-top: 20px;
+    background-color: white;
+    width: 45%;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(127, 127, 127, 0.2), 0 6px 20px 0 rgba(127, 127, 127, 0.19);
+}
+
+.main-form p{
+    padding: 20px 0;
+}
+
+.btn-google {
+    padding: 10px 40px 35px;
+    color: #686868;
+    font-weight: lighter;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: solid 1px #d0d0d0;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    z-index: 2;
+}
+
+.btn-google:hover {
+    background-color: whitesmoke;
+}
+
+.or {
+    text-align: center;
+    width: 65%;
+    color: #ababab;
+    border-bottom: 1px solid #ababab;
+    line-height: 0.1em;
+    margin: 30px 90px 20px;
+}
+
+.or span {
+    background: white;
+    padding: 0 10px;
+}
+
+.form-group {
+    width: 314px;
+    height: 45px;
+    margin: 0 93px;
+    border-radius: 7px;
+}
+
+.btn-submit {
+    background-color: #00a82d;
+    color: white;
+    font-weight: lighter;
+    border: none;
+    border-radius: 7px;
+    line-height: 2.75;
+    padding: 0 132px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #009126;
+}
+
+.verification {
+    text-align: center;
+    line-height: 15px;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #a6a6a6;
+    padding: 0 160px;
+}
+.signin {
+    margin: 50px 0; 
+}
+
+.signin p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
+}
+
+.signin a {
+    color: #00a82d;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    color: #009126;
+}
+
+.checkbox {
+    color: #737373;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.checkbox a {
+    color: #00a82d;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.checkbox a:hover {
+    color: #00a82d;
+}
